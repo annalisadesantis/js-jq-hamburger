@@ -11,3 +11,28 @@ $(".fa-bars").click(function(){
 $(".close").click(function(){
     $(".hamburger-menu").slideToggle();
 });
+
+
+// Soluzione 2------------------------
+
+// // Hamburger-menu appare al click
+// $(".fa-bars").click(function(){
+//     $(".hamburger-menu").show("slow");
+// });
+//
+// // Hamburger-menu scompare al click
+// $(".close").click(function(){
+//     $(".hamburger-menu").hide();
+// });
+
+
+// Soluzione 3------------------
+// Hamburger-menu appare al click
+// $(".fa-bars").click(function(){
+//     $(".hamburger-menu").fadeIn("slow");
+// });
+//
+// // Hamburger-menu scompare al click
+// $(".close").click(function(){
+//     $(".hamburger-menu").fadeOut();
+// });
