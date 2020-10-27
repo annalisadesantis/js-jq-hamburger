@@ -36,3 +36,14 @@ $(".close").click(function(){
 // $(".close").click(function(){
 //     $(".hamburger-menu").fadeOut();
 // });
+
+// Soluzione 4--------------------
+// // Hamburger-menu appare al click
+// $(".fa-bars").click(function(){
+//     $(".hamburger-menu").addClass("active");
+// });
+//
+// // Hamburger-menu scompare al click
+// $(".close").click(function(){
+//     $(".hamburger-menu").removeClass("active");
+// });
